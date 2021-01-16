@@ -2,30 +2,36 @@
     text-align: center;
     background-attachment: fixed;
     background-image:url("img/back.jpg") ;
-  
+    font-family:cursive;
+   
 }
+/*top*/
 .title p1{
     color: white;
     font-size: 90px;
 
 }
+
 .title p2{
     color:rgb(175, 174, 174);
-   
-}.title .imag1{
-    margin-top:80px ;
-    height: 463px;
-   
+
 }
+.title .imag1{
+    width: 1000px;
+   margin-left: 12.5%;
+   margin-right: 12.5%;
+   padding-top: 5%;
+}
+/* seconed part*/
 .title .fri{
-    padding: 3%;
+    padding: 5%;
     background-color: white;
     width: auto;
     height: 100px;
     margin-left: 12.5%;
     margin-right: 12.5%;
-    margin-top: 0%;
-    
+  border: 0px;
+
 }
 .title h3{
     font-size: 35px;
@@ -38,9 +44,11 @@
     color:rgb(175, 174, 174);
     margin-left: 12.5%;
     margin-right: 12.5%;
-    padding: 3%;
+    padding: 5%;
+    font-size: 20px;
     
 }
+/*part3*/
 .title .part2{
     background-color: rgb(49, 49, 49);
     margin-left: 12.5%;
@@ -54,6 +62,7 @@
     height: 150px;
     line-height: 50px;
 }
+/*paragraphs*/
 .title .part2 .sec h2{
     color: white;
     font-size: 40px;
@@ -75,40 +84,43 @@
 .title .part2 .p5 p5{
     font-size: 25px;
 }
-
+/*imges*/
+.title .part2 .container {
+    margin-top: 10%;
+}
+.title .part2 .part1{
+    height: 500px;
+    align-self: center;
+    padding: 0%;
+    width: 836px;
+    margin-left: 10%;
+}
 .part2 .imges1{
     display: flex;
-    width: 80%;
-   height: 250px;
-   margin-left: 10%;
+     width: 836px;
 }
 .title .part2 .imges1 .img1{
-    background-image: url("./img/1.jpg");
+    
     width: 100%;
     height: 250px;
 }
 .title .part2 .imges1 .img2{
-    background-image: url("./img/2.jpg");
+  
     width: 100%;
     height: 250px;
 }
 .part2 .imges2{
     display: flex;
-    width: 80%;
-   height: 250px;
-   margin-left: 10%;
+    width: 100%;
 }
-.title .part2 .container {
-    margin-top: 10%;
-}
+
 .title .part2 .imges2 .img3{
-    background-image: url("./img/3.jpg");
-    width: 510px;
+    width: 100%;
     height: 250px;
 }
 .title .part2 .imges2 .img4{
-    background-image: url("./img/4.jpg");
-    width: 510px;
+   
+    width:100%;
     height: 250px;
 }
 .title .part2 .imges3{
@@ -120,7 +132,7 @@
 .title .part2 .imges3 .img5{
     height: 400px;
     width: 100%;
-    background-image: url("./img/-5.jpg");
+   
 }
 .title .part2 .imges3 .p5{
     height:  400px;
@@ -157,9 +169,9 @@
     background-color: rgb(214, 211, 211);
     width:100%;
     height:400px;
-    
-   font-size: 30px;
+   font-size: 25px;
 }
+/*end*/
 .end{
     padding: 4%;
     font-size: 25px;
